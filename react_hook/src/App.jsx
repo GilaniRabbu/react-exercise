@@ -4,6 +4,7 @@ import ChangeText from "./component/ChangeText";
 import ClsAddRemove from "./component/ClsAddRemove";
 import InputValue from "./component/InputValue";
 import MutableValues from "./component/MutableValues";
+import CachingExpensiveComputations from "./component/CachingExpComputations";
 
 const App = () => {
   return (
@@ -25,6 +26,10 @@ const App = () => {
       <br />
 
       <MutableValues />
+
+      <br />
+
+      <CachingExpensiveComputations />
     </div>
   );
 };
