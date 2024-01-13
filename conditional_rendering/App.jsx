@@ -9,15 +9,25 @@ import "./assets/css/App.css";
 function App() {
   return (
     <div>
+      {/* Use Image */}
       <img src={reactLogo} className="logo" alt="React" />
+
       <IfElse />
+
       <br />
+
       <ImmediatelyInvokedFunction />
+
       <br />
+
       <Logical />
+
       <br />
+
       <Switch />
+
       <br />
+
       <Ternary />
     </div>
   );
