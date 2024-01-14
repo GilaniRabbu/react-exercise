@@ -6,6 +6,8 @@ const Basic = () => {
         alt="Logo"
       />
 
+      <h1 className="title">This is Class</h1>
+
       <h3
         style={{
           color: "seagreen",

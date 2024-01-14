@@ -1,5 +1,10 @@
+// useEffect
 import UseEffectFetch from "./component/useEffect/FetchMethod";
+
+// useState
 import TodoExample from "./component/useState/TodoExample";
+
+// useRef
 import ChangeText from "./component/useRef/ChangeText";
 
 const App = () => {

@@ -3,7 +3,10 @@ const Condition = () => {
   let point = 78;
   return (
     <div>
+      {/* The conditional (ternary) operator */}
       {marks > 80 ? <h2>TE: Brilliant Result</h2> : <h2>TE: Average Result</h2>}
+
+      {/* The if else Statement */}
       {(() => {
         if (point >= 80 && point <= 100) {
           return <h3>IE: Very Good Result</h3>;

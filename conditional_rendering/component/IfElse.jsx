@@ -9,7 +9,7 @@ const Result = (status) => {
 const IfElse = () => {
   return (
     <div>
-      <h1>Result Status IE</h1>
+      <h1>Result Status If-Else</h1>
       {Result(false)}
     </div>
   );
