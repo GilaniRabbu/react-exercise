@@ -1,0 +1,13 @@
+.active-item {
+    color: seagreen;
+}
+
+.pending-item {
+    color: slateblue;
+}
+
+ul {
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+}
